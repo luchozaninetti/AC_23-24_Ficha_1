@@ -39,19 +39,19 @@ P2 - Resposta:
 
     Características da Arquitetura de Von Neumann:
     Proposta nos anos 40;
-Computadores ainda baseados em válvulas de vácuo;
-Funções específicas, impróprios para resolução de problemas gerais;
-Contribuiu significativamente para o desenvolvimento dos computadores;
-Introduziu a utilização da memória, com programas nela residentes;
-Utiliza a linguagem binária e realiza processos com operações bit a bit;
-Minimiza os recursos necessários;
+    Computadores ainda baseados em válvulas de vácuo;
+    Funções específicas, impróprios para resolução de problemas gerais;
+    Contribuiu significativamente para o desenvolvimento dos computadores;
+    Introduziu a utilização da memória, com programas nela residentes;
+    Utiliza a linguagem binária e realiza processos com operações bit a bit;
+    Minimiza os recursos necessários;
 
 
     Características da Arquitetura de Harvard:
     Apareceu pela primeira vez no computador Mark I, completado em ;
-Possui duas memórias diferentes e independentes em termos de barramento;
-Acede à memória de dados separadamente da memória de um programa;
-Usada em processadores de sinal digital // DSP (Digital Signal Processor);
+    Possui duas memórias diferentes e independentes em termos de barramento;
+    Acede à memória de dados separadamente da memória de um programa;
+    Usada em processadores de sinal digital // DSP (Digital Signal Processor);
 
 
 
@@ -67,13 +67,13 @@ Usada em processadores de sinal digital // DSP (Digital Signal Processor);
 
 P3 - Resposta:
 
-    Fetch (Buscar): Nesta etapa, a CPU busca a próxima instrução na memória. Isso geralmente envolve a leitura da instrução da memória principal (RAM) ou da memória cache para a CPU. A localização da próxima instrução é determinada pelo contador de programa, que mantém o endereço da próxima instrução a ser executada.
-
-Decode (Decodificar): Após a instrução ser recuperada, a CPU a decodifica. Isso envolve a interpretação da instrução para determinar qual operação deve ser realizada e quais operandos (dados) estão envolvidos. O decodificador converte a instrução em sinais que controlam outras partes da CPU para executar a operação desejada.
-
-Execute (Executar): Com a instrução decodificada, a CPU realiza a operação especificada. Isso pode envolver a manipulação de dados, a transferência de informações entre registradores ou até mesmo o desvio do fluxo de controle do programa, dependendo da natureza da instrução. A execução efetiva da instrução é o cerne do processamento de dados.
-
-    Essas etapas se repetem continuamente na seguinte ordem, Fetch--> Decode--> Execute, com a CPU buscando, decodificando e executando instruções sequencialmente. Esse ciclo é crucial para a execução de programas de computador, pois cada instrução é uma parte do código do programa que, quando combinada com outras, realiza tarefas complexas.
+        Fetch (Buscar): Nesta etapa, a CPU busca a próxima instrução na memória. Isso geralmente envolve a leitura da instrução da memória principal (RAM) ou da memória cache para a CPU. A localização da próxima instrução é determinada pelo contador de programa, que mantém o endereço da próxima instrução a ser executada.
+    
+    Decode (Decodificar): Após a instrução ser recuperada, a CPU a decodifica. Isso envolve a interpretação da instrução para determinar qual operação deve ser realizada e quais operandos (dados) estão envolvidos. O decodificador converte a instrução em sinais que controlam outras partes da CPU para executar a operação desejada.
+    
+    Execute (Executar): Com a instrução decodificada, a CPU realiza a operação especificada. Isso pode envolver a manipulação de dados, a transferência de informações entre registradores ou até mesmo o desvio do fluxo de controle do programa, dependendo da natureza da instrução. A execução efetiva da instrução é o cerne do processamento de dados.
+    
+        Essas etapas se repetem continuamente na seguinte ordem, Fetch--> Decode--> Execute, com a CPU buscando, decodificando e executando instruções sequencialmente. Esse ciclo é crucial para a execução de programas de computador, pois cada instrução é uma parte do código do programa que, quando combinada com outras, realiza tarefas complexas.
 
  ![imagem](https://i.ytimg.com/vi/xs5oq-i_rTc/maxresdefault.jpg)
 
